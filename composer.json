@@ -1,0 +1,19 @@
+{
+    "name": "danielm/hola",
+    "description": "Dummy composer package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Morales",
+            "email": "daniel85mg@gmail.com"
+        }
+    ],
+    
+    "autoload": {
+        "psr-4": { "Danielm\\Hola\\": "src" }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
