@@ -10,7 +10,7 @@ This only exists to test out composer install scripts.
     <?php
     require 'vendor/autoload.php';
 	
-	use Danielm\Hola;
+	use Danielm\Hola\Greet;
 
-    $hola = new Hola("Jim Raynor");
-    $hola->greet();
+    $greet = new Greet("Jim Raynor");
+    $greet->sayit();
